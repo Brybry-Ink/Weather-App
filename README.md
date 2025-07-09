@@ -6,6 +6,30 @@
 
 ---
 
+## How to use?
+
+1. Clone the repository
+```bash
+git clone https://github.com/Brybry-Ink/Weather-App.git
+```
+
+2. Install dependencies
+```bash
+python pip install streamlit pyowm matplotlib plotly pandas numpy
+```
+
+3. Create an account and generate a free API key from [OpenWeatherMap](https://openweathermap.org/api)
+4. Add your key to *.streamlit/secrets.toml*
+
+5. Run the Streamlit app
+```
+streamlit run weather.py
+```
+
+6. After running, Streamlit will open the app in your browser at [http://localhost:8501](http://localhost:8501)
+
+---
+
 <p align="center">
   <img src="screenshots/weather1.png" width="600"/><br/>
   <img src="screenshots/weather2.png" width="600"/><br/>
@@ -17,7 +41,7 @@
 
 ---
 
-## Tech Used
+## Built With
 
 - [Python 3](https://www.python.org/)
 - [Streamlit](https://streamlit.io/)
@@ -27,3 +51,4 @@
 - [Pandas](https://pandas.pydata.org/)
 - [NumPy](https://numpy.org/)
 
+---
